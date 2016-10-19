@@ -26,4 +26,8 @@ public class RepositorioTipoProduto {
     public void excluir(TipoProduto tipo){
         DaoManagerHiber.getInstance().delete(tipo);
     }
+    
+    public void alterar(TipoProduto tipo){
+        DaoManagerHiber.getInstance().update(tipo);
+    }
 }

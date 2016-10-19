@@ -2,9 +2,13 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group>
             <file>file:/C:/Users/Marcia/Documents/NetBeansProjects/Restaurante/src/java/hibernate.cfg.xml</file>
             <file>file:/C:/Users/Marcia/Documents/NetBeansProjects/Restaurante/src/java/br/vn/Model/Dao/DaoManagerHiber.java</file>
         </group>
+=======
+        <group/>
+>>>>>>> fc5bf1ce843456b1b362848267c55a0e0e2a5aaf
     </open-files>
 </project-private>

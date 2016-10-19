@@ -48,5 +48,8 @@ public class ControladorTipoProdutoBean {
     public void excluir(){
         repTipo.excluir(tipo);
     }
+    public void alterar(){
+        repTipo.alterar(tipo);
+    }
     
 }

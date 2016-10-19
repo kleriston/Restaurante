@@ -31,7 +31,7 @@
             
                 <p:column headerText="Operações">
                     
-                    <p:commandButton icon="ui-icon-trash" oncomplete="PF('widDial2').show()">
+                    <p:commandButton icon="ui-icon-pencil" oncomplete="PF('widDial2').show()">
                         <f:setPropertyActionListener target="#{TipeBean.tipo}" value="#{tipos}"/>
                     </p:commandButton>
                 </p:column>
@@ -46,8 +46,11 @@
                     <f:facet name="header">
                     Atenção!!!
                 </f:facet>
-                  
-                  <p:commandButton value="Sim" action="#{TipeBean.excluir()}"
+                  <p:panelGrid columns="2">
+                    <h:outputText value="Categoria"/>
+                    <h:outputText value="#{TipeBean.tipo.nome}"/>
+                  </p:panelGrid>
+                  <p:commandButton value="Alterar" action="#{TipeBean.alterar()}"
                                  oncomplete="PF('widDial2').hide()" update="formulario"/>
                 <p:commandButton value="não" oncomplete="PF('widDial2').hide()"/>
             </p:confirmDialog>
