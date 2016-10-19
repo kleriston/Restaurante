@@ -51,7 +51,7 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
-                    <file>${file.reference.java-mail-1.4.4.jar}</file>
+                    <file>${file.reference.primefaces-5.0.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
@@ -72,10 +72,6 @@
                 </library>
                 <library dirs="200">
                     <file>${file.reference.jsp-api-2.0.jar}</file>
-                    <path-in-war>WEB-INF/lib</path-in-war>
-                </library>
-                <library dirs="200">
-                    <file>${file.reference.primefaces-5.0.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
             </web-module-libraries>
