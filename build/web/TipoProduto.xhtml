@@ -41,13 +41,11 @@
    
         
           
-              <p:confirmDialog id="dial2" visible="false" message="Deseja Realmente Excluir Esta Categoria?"
+              <p:confirmDialog id="dial2" visible="false" message="Deseja Realmente Alterar Esta Categoria?"
                 widgetVar="widDial2">
-                    <f:facet name="header">
-                    Atenção!!!
-                </f:facet>
+                 
                   <p:panelGrid columns="2">
-                    
+                     <h:outputText value="Categoria"/>
                       <p:inputText value="#{TipeBean.tipo.nome}"/>
                   </p:panelGrid>
                   <p:commandButton value="Alterar" action="#{TipeBean.alterar()}"
