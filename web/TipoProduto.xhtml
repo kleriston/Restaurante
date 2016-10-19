@@ -47,12 +47,12 @@
                     Atenção!!!
                 </f:facet>
                   <p:panelGrid columns="2">
-                    <h:outputText value="Categoria"/>
-                    <h:outputText value="#{TipeBean.tipo.nome}"/>
+                    
+                      <p:inputText value="#{TipeBean.tipo.nome}"/>
                   </p:panelGrid>
                   <p:commandButton value="Alterar" action="#{TipeBean.alterar()}"
                                  oncomplete="PF('widDial2').hide()" update="formulario"/>
-                <p:commandButton value="não" oncomplete="PF('widDial2').hide()"/>
+                <p:commandButton value="Cancelar" oncomplete="PF('widDial2').hide()"/>
             </p:confirmDialog>
         
         </h:form>
