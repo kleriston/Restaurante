@@ -106,6 +106,7 @@ public class ControladorClienteBean {
         
         BigInteger hash = new BigInteger(1, md.digest(confirma.getBytes()));
         this.confirma = String.format("%32x", hash);
+     
         
     }
 

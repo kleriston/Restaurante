@@ -3,12 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Kleriston/Documents/NetBeansProjects/Restaurante/src/java/br/vn/Controlador/ControladorTipoProdutoBean.java</file>
-            <file>file:/C:/Users/Kleriston/Documents/NetBeansProjects/Restaurante/src/java/br/vn/Model/Repositorio/RepositorioTipoProduto.java</file>
-            <file>file:/C:/Users/Kleriston/Documents/NetBeansProjects/Restaurante/web/TipoProduto.xhtml</file>
-            <file>file:/C:/Users/Kleriston/Documents/NetBeansProjects/Restaurante/src/java/br/vn/Model/Repositorio/RepositorioProduto.java</file>
-            <file>file:/C:/Users/Kleriston/Documents/NetBeansProjects/Restaurante/web/ListarProdutos.xhtml</file>
-            <file>file:/C:/Users/Kleriston/Documents/NetBeansProjects/Restaurante/src/java/br/vn/Controlador/ControladorProdutoBean.java</file>
+            <file>file:/C:/Users/Kleriston/Documents/NetBeansProjects/Restaurante/src/java/br/vn/Controlador/ControladorClienteBean.java</file>
         </group>
     </open-files>
 </project-private>
