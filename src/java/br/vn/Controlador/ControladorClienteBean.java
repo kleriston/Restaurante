@@ -110,7 +110,7 @@ public class ControladorClienteBean {
         
     }
 
-    public String inserir() {
+    public void inserir() {
         if (this.confirma.equals(this.cliente.getSenha())) {
 
             try {
@@ -152,7 +152,7 @@ public class ControladorClienteBean {
                     + " Senha Incorreta!"));
         }
 
-        return "/ListarClientes.xhtml";
+        
 
     }
 
