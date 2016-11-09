@@ -106,10 +106,11 @@ public class ControladorClienteBean {
         
         BigInteger hash = new BigInteger(1, md.digest(confirma.getBytes()));
         this.confirma = String.format("%32x", hash);
+     
         
     }
 
-    public String inserir() {
+    public void inserir() {
         if (this.confirma.equals(this.cliente.getSenha())) {
 
             try {
@@ -151,7 +152,7 @@ public class ControladorClienteBean {
                     + " Senha Incorreta!"));
         }
 
-        return "/ListarClientes.xhtml";
+        
 
     }
 

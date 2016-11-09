@@ -77,7 +77,7 @@
                     <p:inputText type="password" value="#{FuncionarioBean.funcionario.senha}"/>
                    
                 </p:panelGrid>
-                  <p:commandButton value="Cadastrar" action="#{FuncionarioBean.inserir()}" 
+                  <p:commandButton value="Cadastrar" action="#{FuncionarioBean.inserir()}"  oncomplete="location.href='MenuPrincipal.xhtml'" 
                                 />
                 <p:commandButton value="Cancelar" oncomplete="PF('widCadastro').hide()"/>
             </h:form>
@@ -151,8 +151,8 @@
 
                 </p:panelGrid>
                 <p:commandButton value="Cadastrar" action="#{ClienteBean.inserir()}" 
-                                 oncomplete="PF('widCadastro1').hide()" update=":formulario1: "/>
-                <p:commandButton value="Cancelar" oncomplete="PF('widCadastro').hide()"/>
+                                 oncomplete="location.href='MenuPrincipal" update=":formulario1: "/>
+                <p:commandButton value="Cancelar" oncomplete="PF('widCadastro1').hide()"/>
             </h:form>
         </p:dialog>
           

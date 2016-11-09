@@ -186,6 +186,9 @@ public class ControladorMesasBean {
         vendaCadastro.setValorTotal(mesas.getValorTotal());
         vendaCadastro.setItens(mesas.getListaItens());
         repVenda.inserir(vendaCadastro);
+        
+        FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Atenção! " 
+             +" Venda Efetuada Com Sucesso!"));
       
       listaDeItens = new ArrayList<>();
        

@@ -251,8 +251,8 @@ public class ControladorVendaBean {
  
              vendaCadastro = new Venda();
        
-      FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Parabéns! " 
-             +" Venda Efetuado Com Sucesso!"));
+      FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Atenção! " 
+             +" Venda Efetuada Com Sucesso!"));
        vendaCadastro.setValorTotal(0);
       return "VendaCadastro.xhtml";
    }
